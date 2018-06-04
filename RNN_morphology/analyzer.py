@@ -140,6 +140,9 @@ features_for_testing = features[ind:]
 # вектор грамматических характеристик
 labels_for_testing = labels[ind:]
 
+print(len(features_for_training[0]))
+input()
+
 # начинается модель
 inputs_placeholder_training = tf.placeholder(
     shape=(len(features_for_training), len(features_for_training[0])),
