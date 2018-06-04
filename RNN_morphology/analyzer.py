@@ -234,6 +234,7 @@ train_op = tf.train.AdagradOptimizer(learning_rate=0.05).\
     minimize(error_training)
 
 with tf.Session() as sess:
+    writer = tf.summary.FileWriter("output", sess.graph)
     sess.run(tf.global_variables_initializer())
 
     # print(sess.run(result, feed_dict={inputs_placeholder: features_for_training,
@@ -258,3 +259,5 @@ with tf.Session() as sess:
                    outputs_placeholder_testing: labels_for_testing})
 
     print("testing_error:", testing_error)
+
+    writer.close()    
