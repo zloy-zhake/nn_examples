@@ -1,0 +1,500 @@
+цезарепапизмім:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+цезарепапизмiмiз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+цезарепапизмiң:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+цезарепапизмiңiз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+цезарепапизмi:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+цезарепапизмдер:{'pos': '<n>', 'plurality': '<pl>'}
+цезарепапизм:{'pos': '<n>', 'case': '<nom>'}
+цезарепапизмнiң:{'pos': '<n>', 'case': '<gen>'}
+цезарепапизмге:{'pos': '<n>', 'case': '<dat>'}
+цезарепапизмдi:{'pos': '<n>', 'case': '<acc>'}
+цезарепапизмде:{'pos': '<n>', 'case': '<loc>'}
+цезарепапизмнен:{'pos': '<n>', 'case': '<abl>'}
+цезарепапизммен:{'pos': '<n>', 'case': '<ins>'}
+цезарепапизммін:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+цезарепапизмсің:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+цезарепапизмсіз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+цезарепапизмміз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+цезарепапизмсіңдер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+цезарепапизмсіздер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+цезарепапизм:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+элюентім:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+элюентiмiз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+элюентiң:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+элюентiңiз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+элюентi:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+элюенттер:{'pos': '<n>', 'plurality': '<pl>'}
+элюент:{'pos': '<n>', 'case': '<nom>'}
+элюенттың:{'pos': '<n>', 'case': '<gen>'}
+элюентке:{'pos': '<n>', 'case': '<dat>'}
+элюенттi:{'pos': '<n>', 'case': '<acc>'}
+элюентте:{'pos': '<n>', 'case': '<loc>'}
+элюенттен:{'pos': '<n>', 'case': '<abl>'}
+элюентпен:{'pos': '<n>', 'case': '<ins>'}
+элюентпін:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+элюентсің:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+элюентсіз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+элюентпіз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+элюентсіңдер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+элюентсіздер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+элюент:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+макросоциологияім:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+макросоциологияім:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+макросоциологияім:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+макросоциологияім:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+макросоциологияім:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+макросоциология:{'pos': '<n>', 'case': '<nom>'}
+макросоциологиясің:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+макросоциологиясіз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+макросоциологиясіз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+макросоциологиясіңдер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+макросоциологиясіздер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+макросоциология:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+радилогияім:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+радилогияім:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+радилогияім:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+радилогияім:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+радилогияім:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+радилогия:{'pos': '<n>', 'case': '<nom>'}
+радилогиясің:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+радилогиясіз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+радилогиясіз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+радилогиясіңдер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+радилогиясіздер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+радилогия:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+микросоциологияім:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+микросоциологияім:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+микросоциологияім:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+микросоциологияім:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+микросоциологияім:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+микросоциология:{'pos': '<n>', 'case': '<nom>'}
+микросоциологиясің:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+микросоциологиясіз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+микросоциологиясіз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+микросоциологиясіңдер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+микросоциологиясіздер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+микросоциология:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+экспериментаторством:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+экспериментаторствомыз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+экспериментаторствоң:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+экспериментаторствоңыз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+экспериментаторствосы:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+экспериментаторстволар:{'pos': '<n>', 'plurality': '<pl>'}
+экспериментаторство:{'pos': '<n>', 'case': '<nom>'}
+экспериментаторствоның:{'pos': '<n>', 'case': '<gen>'}
+экспериментаторствоға:{'pos': '<n>', 'case': '<dat>'}
+экспериментаторствоны:{'pos': '<n>', 'case': '<acc>'}
+экспериментаторствода:{'pos': '<n>', 'case': '<loc>'}
+экспериментаторстводан:{'pos': '<n>', 'case': '<abl>'}
+экспериментаторствомен:{'pos': '<n>', 'case': '<ins>'}
+экспериментаторствомын:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+экспериментаторствосың:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+экспериментаторствосыз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+экспериментаторствомыз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+экспериментаторствосыңдар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+экспериментаторствосыздар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+экспериментаторство:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+элюирлеум:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+элюирлеумызэлюирлеумiз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+элюирлеуң:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+элюирлеуңызэлюирлеуңiз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+элюирлеусыэлюирлеусi:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+элюирлеуларэлюирлеулер:{'pos': '<n>', 'plurality': '<pl>'}
+элюирлеу:{'pos': '<n>', 'case': '<nom>'}
+элюирлеуныңэлюирлеунiң:{'pos': '<n>', 'case': '<gen>'}
+элюирлеуғаэлюирлеуге:{'pos': '<n>', 'case': '<dat>'}
+элюирлеуныэлюирлеунi:{'pos': '<n>', 'case': '<acc>'}
+элюирлеудаэлюирлеуде:{'pos': '<n>', 'case': '<loc>'}
+элюирлеуданэлюирлеуден:{'pos': '<n>', 'case': '<abl>'}
+элюирлеумен:{'pos': '<n>', 'case': '<ins>'}
+элюирлеумынэлюирлеумін:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+элюирлеусыңэлюирлеусің:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+элюирлеусызэлюирлеусіз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+элюирлеумызэлюирлеуміз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+элюирлеусыңдарэлюирлеусіңдер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+элюирлеусыздарэлюирлеусіздер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+элюирлеу:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+таралымым:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+таралымымыз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+таралымың:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+таралымыңыз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+таралымы:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+таралымдар:{'pos': '<n>', 'plurality': '<pl>'}
+таралым:{'pos': '<n>', 'case': '<nom>'}
+таралымның:{'pos': '<n>', 'case': '<gen>'}
+таралымға:{'pos': '<n>', 'case': '<dat>'}
+таралымды:{'pos': '<n>', 'case': '<acc>'}
+таралымда:{'pos': '<n>', 'case': '<loc>'}
+таралымнан:{'pos': '<n>', 'case': '<abl>'}
+таралыммен:{'pos': '<n>', 'case': '<ins>'}
+таралыммын:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+таралымсың:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+таралымсыз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+таралыммыз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+таралымсыңдар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+таралымсыздар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+таралым:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+тиражым:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+тиражымыз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+тиражың:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+тиражыңыз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+тиражы:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+тираж:{'pos': '<n>', 'case': '<nom>'}
+тираждың:{'pos': '<n>', 'case': '<gen>'}
+тиражға:{'pos': '<n>', 'case': '<dat>'}
+тиражды:{'pos': '<n>', 'case': '<acc>'}
+тиражда:{'pos': '<n>', 'case': '<loc>'}
+тираждан:{'pos': '<n>', 'case': '<abl>'}
+тиражбен:{'pos': '<n>', 'case': '<ins>'}
+тиражбын:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+тиражсың:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+тиражсыз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+тиражбыз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+тиражсыңдар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+тиражсыздар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+тираж:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+дыбысым:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+дыбысымыз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+дыбысың:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+дыбысыңыз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+дыбысы:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+дыбыстар:{'pos': '<n>', 'plurality': '<pl>'}
+дыбыс:{'pos': '<n>', 'case': '<nom>'}
+дыбыстiң:{'pos': '<n>', 'case': '<gen>'}
+дыбысқа:{'pos': '<n>', 'case': '<dat>'}
+дыбысты:{'pos': '<n>', 'case': '<acc>'}
+дыбыста:{'pos': '<n>', 'case': '<loc>'}
+дыбыстан:{'pos': '<n>', 'case': '<abl>'}
+дыбыспен:{'pos': '<n>', 'case': '<ins>'}
+дыбыспын:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+дыбыссың:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+дыбыссыз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+дыбыспыз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+дыбыссыңдар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+дыбыссыздар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+дыбыс:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+драмым:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+драмымыз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+драмың:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+драмыңыз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+драмы:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+драмдар:{'pos': '<n>', 'plurality': '<pl>'}
+драм:{'pos': '<n>', 'case': '<nom>'}
+драмның:{'pos': '<n>', 'case': '<gen>'}
+драмға:{'pos': '<n>', 'case': '<dat>'}
+драмды:{'pos': '<n>', 'case': '<acc>'}
+драмда:{'pos': '<n>', 'case': '<loc>'}
+драмнан:{'pos': '<n>', 'case': '<abl>'}
+драммен:{'pos': '<n>', 'case': '<ins>'}
+драммын:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+драмсың:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+драмсыз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+драммыз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+драмсыңдар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+драмсыздар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+драм:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+саманим:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+саманимызсаманимiз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+саманиң:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+саманиңызсаманиңiз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+саманисысаманисi:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+саманиларсаманилер:{'pos': '<n>', 'plurality': '<pl>'}
+самани:{'pos': '<n>', 'case': '<nom>'}
+саманиныңсаманинiң:{'pos': '<n>', 'case': '<gen>'}
+саманиғасаманиге:{'pos': '<n>', 'case': '<dat>'}
+саманинысаманинi:{'pos': '<n>', 'case': '<acc>'}
+саманидасаманиде:{'pos': '<n>', 'case': '<loc>'}
+саманидансаманиден:{'pos': '<n>', 'case': '<abl>'}
+саманимен:{'pos': '<n>', 'case': '<ins>'}
+саманимынсаманимін:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+саманисыңсаманисің:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+саманисызсаманисіз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+саманимызсаманиміз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+саманисыңдарсаманисіңдер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+саманисыздарсаманисіздер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+самани:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+дельтам:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+дельтамыз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+дельтаң:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+дельтаңыз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+дельтасы:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+дельталар:{'pos': '<n>', 'plurality': '<pl>'}
+дельта:{'pos': '<n>', 'case': '<nom>'}
+дельтаның:{'pos': '<n>', 'case': '<gen>'}
+дельтаға:{'pos': '<n>', 'case': '<dat>'}
+дельтаны:{'pos': '<n>', 'case': '<acc>'}
+дельтада:{'pos': '<n>', 'case': '<loc>'}
+дельтадан:{'pos': '<n>', 'case': '<abl>'}
+дельтамен:{'pos': '<n>', 'case': '<ins>'}
+дельтамын:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+дельтасың:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+дельтасыз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+дельтамыз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+дельтасыңдар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+дельтасыздар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+дельта:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+субурбанизацияім:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+субурбанизацияім:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+субурбанизацияім:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+субурбанизацияім:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+субурбанизацияім:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+субурбанизация:{'pos': '<n>', 'case': '<nom>'}
+субурбанизациясің:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+субурбанизациясіз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+субурбанизациясіз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+субурбанизациясіңдер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+субурбанизациясіздер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+субурбанизация:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+теңгерімім:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+теңгерімiмiз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+теңгерімiң:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+теңгерімiңiз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+теңгерімi:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+теңгерімдер:{'pos': '<n>', 'plurality': '<pl>'}
+теңгерім:{'pos': '<n>', 'case': '<nom>'}
+теңгерімнiң:{'pos': '<n>', 'case': '<gen>'}
+теңгерімге:{'pos': '<n>', 'case': '<dat>'}
+теңгерімдi:{'pos': '<n>', 'case': '<acc>'}
+теңгерімде:{'pos': '<n>', 'case': '<loc>'}
+теңгерімнен:{'pos': '<n>', 'case': '<abl>'}
+теңгеріммен:{'pos': '<n>', 'case': '<ins>'}
+теңгеріммін:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+теңгерімсің:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+теңгерімсіз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+теңгерімміз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+теңгерімсіңдер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+теңгерімсіздер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+теңгерім:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+энергомашинажасаум:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+энергомашинажасаумыз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+энергомашинажасауң:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+энергомашинажасауңыз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+энергомашинажасаусы:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+энергомашинажасаулар:{'pos': '<n>', 'plurality': '<pl>'}
+энергомашинажасау:{'pos': '<n>', 'case': '<nom>'}
+энергомашинажасауның:{'pos': '<n>', 'case': '<gen>'}
+энергомашинажасауға:{'pos': '<n>', 'case': '<dat>'}
+энергомашинажасауны:{'pos': '<n>', 'case': '<acc>'}
+энергомашинажасауда:{'pos': '<n>', 'case': '<loc>'}
+энергомашинажасаудан:{'pos': '<n>', 'case': '<abl>'}
+энергомашинажасаумен:{'pos': '<n>', 'case': '<ins>'}
+энергомашинажасаумын:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+энергомашинажасаусың:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+энергомашинажасаусыз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+энергомашинажасаумыз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+энергомашинажасаусыңдар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+энергомашинажасаусыздар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+энергомашинажасау:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+электрокредитім:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+электрокредитiмiз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+электрокредитiң:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+электрокредитiңiз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+электрокредитi:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+электрокредиттер:{'pos': '<n>', 'plurality': '<pl>'}
+электрокредит:{'pos': '<n>', 'case': '<nom>'}
+электрокредиттың:{'pos': '<n>', 'case': '<gen>'}
+электрокредитке:{'pos': '<n>', 'case': '<dat>'}
+электрокредиттi:{'pos': '<n>', 'case': '<acc>'}
+электрокредитте:{'pos': '<n>', 'case': '<loc>'}
+электрокредиттен:{'pos': '<n>', 'case': '<abl>'}
+электрокредитпен:{'pos': '<n>', 'case': '<ins>'}
+электрокредитпін:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+электрокредитсің:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+электрокредитсіз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+электрокредитпіз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+электрокредитсіңдер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+электрокредитсіздер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+электрокредит:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+экспериментаниумымэкспериментаниумім:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+экспериментаниумымызэкспериментаниумiмiз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+экспериментаниумыңэкспериментаниумiң:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+экспериментаниумыңызэкспериментаниумiңiз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+экспериментаниумыэкспериментаниумi:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+экспериментаниумдарэкспериментаниумдер:{'pos': '<n>', 'plurality': '<pl>'}
+экспериментаниум:{'pos': '<n>', 'case': '<nom>'}
+экспериментаниумныңэкспериментаниумнiң:{'pos': '<n>', 'case': '<gen>'}
+экспериментаниумғаэкспериментаниумге:{'pos': '<n>', 'case': '<dat>'}
+экспериментаниумдыэкспериментаниумдi:{'pos': '<n>', 'case': '<acc>'}
+экспериментаниумдаэкспериментаниумде:{'pos': '<n>', 'case': '<loc>'}
+экспериментаниумнанэкспериментаниумнен:{'pos': '<n>', 'case': '<abl>'}
+экспериментаниуммен:{'pos': '<n>', 'case': '<ins>'}
+экспериментаниуммынэкспериментаниуммін:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+экспериментаниумсыңэкспериментаниумсің:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+экспериментаниумсызэкспериментаниумсіз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+экспериментаниуммызэкспериментаниумміз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+экспериментаниумсыңдарэкспериментаниумсіңдер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+экспериментаниумсыздарэкспериментаниумсіздер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+экспериментаниум:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+цокорым:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+цокорымыз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+цокорың:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+цокорыңыз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+цокоры:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+цокорлар:{'pos': '<n>', 'plurality': '<pl>'}
+цокор:{'pos': '<n>', 'case': '<nom>'}
+цокордың:{'pos': '<n>', 'case': '<gen>'}
+цокорға:{'pos': '<n>', 'case': '<dat>'}
+цокорды:{'pos': '<n>', 'case': '<acc>'}
+цокорда:{'pos': '<n>', 'case': '<loc>'}
+цокордан:{'pos': '<n>', 'case': '<abl>'}
+цокормен:{'pos': '<n>', 'case': '<ins>'}
+цокормын:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+цокорсың:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+цокорсыз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+цокормыз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+цокорсыңдар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+цокорсыздар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+цокор:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+хостелім:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+хостелiмiз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+хостелiң:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+хостелiңiз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+хостелi:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+хостелдер:{'pos': '<n>', 'plurality': '<pl>'}
+хостел:{'pos': '<n>', 'case': '<nom>'}
+хостелдiң:{'pos': '<n>', 'case': '<gen>'}
+хостелге:{'pos': '<n>', 'case': '<dat>'}
+хостелдi:{'pos': '<n>', 'case': '<acc>'}
+хостелде:{'pos': '<n>', 'case': '<loc>'}
+хостелден:{'pos': '<n>', 'case': '<abl>'}
+хостелмен:{'pos': '<n>', 'case': '<ins>'}
+хостелмін:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+хостелсің:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+хостелсіз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+хостелміз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+хостелсіңдер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+хостелсіздер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+хостел:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+футзалым:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+футзалымыз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+футзалың:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+футзалыңыз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+футзалы:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+футзалдар:{'pos': '<n>', 'plurality': '<pl>'}
+футзал:{'pos': '<n>', 'case': '<nom>'}
+футзалдың:{'pos': '<n>', 'case': '<gen>'}
+футзалға:{'pos': '<n>', 'case': '<dat>'}
+футзалды:{'pos': '<n>', 'case': '<acc>'}
+футзалда:{'pos': '<n>', 'case': '<loc>'}
+футзалдан:{'pos': '<n>', 'case': '<abl>'}
+футзалмен:{'pos': '<n>', 'case': '<ins>'}
+футзалмын:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+футзалсың:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+футзалсыз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+футзалмыз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+футзалсыңдар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+футзалсыздар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+футзал:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+фотокедергім:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+фотокедергімiз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+фотокедергің:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+фотокедергіңiз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+фотокедергісi:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+фотокедергілер:{'pos': '<n>', 'plurality': '<pl>'}
+фотокедергі:{'pos': '<n>', 'case': '<nom>'}
+фотокедергінiң:{'pos': '<n>', 'case': '<gen>'}
+фотокедергіге:{'pos': '<n>', 'case': '<dat>'}
+фотокедергінi:{'pos': '<n>', 'case': '<acc>'}
+фотокедергіде:{'pos': '<n>', 'case': '<loc>'}
+фотокедергіден:{'pos': '<n>', 'case': '<abl>'}
+фотокедергімен:{'pos': '<n>', 'case': '<ins>'}
+фотокедергімін:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+фотокедергісің:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+фотокедергісіз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+фотокедергіміз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+фотокедергісіңдер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+фотокедергісіздер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+фотокедергі:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+фотоқабылдағышым:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+фотоқабылдағышымыз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+фотоқабылдағышың:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+фотоқабылдағышыңыз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+фотоқабылдағышы:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+фотоқабылдағыштар:{'pos': '<n>', 'plurality': '<pl>'}
+фотоқабылдағыш:{'pos': '<n>', 'case': '<nom>'}
+фотоқабылдағыштiң:{'pos': '<n>', 'case': '<gen>'}
+фотоқабылдағышқа:{'pos': '<n>', 'case': '<dat>'}
+фотоқабылдағышты:{'pos': '<n>', 'case': '<acc>'}
+фотоқабылдағышта:{'pos': '<n>', 'case': '<loc>'}
+фотоқабылдағыштан:{'pos': '<n>', 'case': '<abl>'}
+фотоқабылдағышпен:{'pos': '<n>', 'case': '<ins>'}
+фотоқабылдағышпын:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+фотоқабылдағышсың:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+фотоқабылдағышсыз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+фотоқабылдағышпыз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+фотоқабылдағышсыңдар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+фотоқабылдағышсыздар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+фотоқабылдағыш:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+фотоколориметрім:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+фотоколориметрiмiз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+фотоколориметрiң:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+фотоколориметрiңiз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+фотоколориметрi:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+фотоколориметрлер:{'pos': '<n>', 'plurality': '<pl>'}
+фотоколориметр:{'pos': '<n>', 'case': '<nom>'}
+фотоколориметрдiң:{'pos': '<n>', 'case': '<gen>'}
+фотоколориметрге:{'pos': '<n>', 'case': '<dat>'}
+фотоколориметрдi:{'pos': '<n>', 'case': '<acc>'}
+фотоколориметрде:{'pos': '<n>', 'case': '<loc>'}
+фотоколориметрден:{'pos': '<n>', 'case': '<abl>'}
+фотоколориметрмен:{'pos': '<n>', 'case': '<ins>'}
+фотоколориметрмін:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+фотоколориметрсің:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+фотоколориметрсіз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+фотоколориметрміз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+фотоколориметрсіңдер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+фотоколориметрсіздер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+фотоколориметр:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+союзмультфильм:{'pos': '<n>', 'case': '<nom>'}
+союзмультфильммен:{'pos': '<n>', 'case': '<ins>'}
+союзмультфильм:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+социотибім:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+социотипiмiз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+социотипiң:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+социотипiңiз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+социотипi:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+социотиптер:{'pos': '<n>', 'plurality': '<pl>'}
+социотип:{'pos': '<n>', 'case': '<nom>'}
+социотиптың:{'pos': '<n>', 'case': '<gen>'}
+социотипке:{'pos': '<n>', 'case': '<dat>'}
+социотиптi:{'pos': '<n>', 'case': '<acc>'}
+социотипте:{'pos': '<n>', 'case': '<loc>'}
+социотиптен:{'pos': '<n>', 'case': '<abl>'}
+социотиппен:{'pos': '<n>', 'case': '<ins>'}
+социотиппін:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+социотипсің:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+социотипсіз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+социотиппіз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+социотипсіңдер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+социотипсіздер:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+социотип:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+морфоқұрылымым:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+морфоқұрылымымыз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+морфоқұрылымың:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+морфоқұрылымыңыз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+морфоқұрылымы:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+морфоқұрылымдар:{'pos': '<n>', 'plurality': '<pl>'}
+морфоқұрылым:{'pos': '<n>', 'case': '<nom>'}
+морфоқұрылымның:{'pos': '<n>', 'case': '<gen>'}
+морфоқұрылымға:{'pos': '<n>', 'case': '<dat>'}
+морфоқұрылымды:{'pos': '<n>', 'case': '<acc>'}
+морфоқұрылымда:{'pos': '<n>', 'case': '<loc>'}
+морфоқұрылымнан:{'pos': '<n>', 'case': '<abl>'}
+морфоқұрылыммен:{'pos': '<n>', 'case': '<ins>'}
+морфоқұрылыммын:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p1>'}
+морфоқұрылымсың:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2>'}
+морфоқұрылымсыз:{'pos': '<n>', 'plurality': '<sg>', 'person': '<p2_2>'}
+морфоқұрылыммыз:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p1>'}
+морфоқұрылымсыңдар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2>'}
+морфоқұрылымсыздар:{'pos': '<n>', 'plurality': '<pl>', 'person': '<p2_2>'}
+морфоқұрылым:{'pos': '<n>', 'plurality': '<sp>', 'person': '<p3>'}
+сикхизмім:{'pos': '<n>', 'possession': '<px1sg>', 'person': '<p1>'}
+сикхизмiмiз:{'pos': '<n>', 'possession': '<px1pl>', 'person': '<p1>'}
+сикхизмiң:{'pos': '<n>', 'possession': '<px2sp>', 'person': '<p2>'}
+сикхизмiңiз:{'pos': '<n>', 'possession': '<px2sp_2>', 'person': '<p2_2>'}
+сикхизмi:{'pos': '<n>', 'possession': '<px3sp>', 'person': '<p3>'}
+сикхизмдер:{'pos': '<n>', 'plurality': '<pl>'}
+сикхизм:{'pos': '<n>', 'case': '<nom>'}
+сикхизмнiң:{'pos': '<n>', 'case': '<gen>'}
+сикхизмге:{'pos': '<n>', 'case': '<dat>'}
+сикхизмдi:{'pos': '<n>', 'case': '<acc>'}
