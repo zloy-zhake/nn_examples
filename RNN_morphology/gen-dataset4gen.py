@@ -12,9 +12,7 @@ for noun in nouns_from_apertium:
         word = line[:sep_ind]
         tags = line[sep_ind + 1:].strip()
 
-        if noun in word:
+        if word.startswith(noun):
             train_data.append(noun + ':' + tags + ':' + word + '\n')
-            print(train_data)
-            input()
 with open("data/gen-data", 'w') as f:
     f.writelines(train_data)
