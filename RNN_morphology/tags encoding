@@ -1,0 +1,30 @@
+9 possession - притяжательная форма:
+    <px1sg> - First person singular possessive (1 лицо, ед.ч., -м, -ым, -iм)
+    <px1pl> - First person plural possessive (1 лицо, мн.ч., -мыз, -мiз, -ымыз, -iмiз)
+    <px3sg> - Third person singular possessive (3 лицо, ед.ч., пока не используется)
+    <px3pl> - Third person plural possessive (3 лицо, мн.ч., пока не используется)
+    <px3sp> - Third person possessive singular or plural (3 лицо, ед. и мн.ч., -сы, -сi, -ы, -i)
+    <px2sg> - Second person singular possessive (2 лицо, ед.ч., пока не используется)
+    <px2pl> - Second person plural possessive (2 лицо, мн.ч., пока не используется)
+    <px2sp> - Second person possessive singular or plural (2 лицо, ед. и мн.ч., -ң, -ың, -iң, "придуман")
+    <px2sp_2> - Second person possessive singular or plural (2 лицо, ед. и мн.ч., вежливая форма, -ңыз, -ңiз, -ыңыз, -iңiз, "придуман")
+
+3 plurality - число:
+    <sg> - единственное число
+    <pl> - множественное число
+    <sp> - единственное и множественное число
+
+7 case - падеж:
+    <nom> - атау септік (nominative case)
+    <gen> - ілік септік (genitive case)
+    <dat> - барыс септік (dative case)
+    <acc> - табыс септік (accusative case)
+    <loc> - жатыс септік (locative case)
+    <abl> - шығыс септік (ablative case).
+    <ins> - көмектес септік (instrumental case)
+
+4 person - лицо:
+    <p1> - 1 лицо
+    <p2> - 2 лицо
+    <p2_2> - 2 лицо, вежливая форма
+    <p3> - 3 лицо
