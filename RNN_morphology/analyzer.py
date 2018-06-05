@@ -6,10 +6,10 @@ import numpy as np
 
 def encode_letter(letter: str) -> float:
     alphabet = "аәбвгғдеёжзийкқлмнңоөпрстуұүфхһцчшщъыіьэюя"
-    codes = [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0,
+    codes = [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0,
              12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0,
              23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0, 31.0, 32.0, 33.0,
-             34.0, 35.0, 36.0, 37.0, 38.0, 39.0, 40.0, 41.0]
+             34.0, 35.0, 36.0, 37.0, 38.0, 39.0, 40.0, 41.0, 42.0, 43.0]
 
     return codes[alphabet.find(letter)]
 
@@ -28,7 +28,7 @@ def pad_to_dense(M):
     return Z
 
 
-num_epochs = 10
+num_epochs = 1000
 batch_size = 10
 train_test_ratio = 0.8
 # результат: 1х23
@@ -140,47 +140,47 @@ features_for_testing = features[ind:]
 # вектор грамматических характеристик
 labels_for_testing = labels[ind:]
 
-print(len(features_for_training[0]))
-input()
-
 # начинается модель
 inputs_placeholder_training = tf.placeholder(
     shape=(len(features_for_training), len(features_for_training[0])),
-    dtype=tf.float32)
+    dtype=tf.float32, name="inputs_placeholder_training")
 outputs_placeholder_training = tf.placeholder(shape=(None, output_dim),
-                                              dtype=tf.float32)
+                                              dtype=tf.float32,
+                                              name="outputs_placeholder_training")
 
 inputs_placeholder_testing = tf.placeholder(
     shape=(len(features_for_testing), len(features_for_testing[0])),
-    dtype=tf.float32)
+    dtype=tf.float32,
+    name="inputs_placeholder_testing")
 outputs_placeholder_testing = tf.placeholder(shape=(None, output_dim),
-                                             dtype=tf.float32)
+                                             dtype=tf.float32,
+                                             name="outputs_placeholder_testing")
 
 history_state = tf.Variable(
     initial_value=tf.zeros(shape=[1, history_dim], dtype=tf.float32),
-    dtype=None)
+    dtype=None, name="history_state")
 
 history_weights = tf.Variable(
     initial_value=tf.eye(num_rows=history_dim, dtype=tf.float32),
-    dtype=None)
+    dtype=None, name="history_weights")
 
 RNN_biases = tf.Variable(
     initial_value=tf.zeros(shape=[history_dim], dtype=tf.float32),
-    dtype=None)
+    dtype=None, name="RNN_biases")
 
 input_weights = tf.Variable(
     initial_value=tf.random_uniform(shape=[embedding_dim, history_dim],
                                     maxval=0.1, dtype=tf.float32),
-    dtype=None)
+    dtype=None, name="input_weights")
 
 output_weights = tf.Variable(
     initial_value=tf.random_uniform(shape=[history_dim, output_dim],
                                     maxval=0.1, dtype=tf.float32),
-    dtype=None)
+    dtype=None, name="output_weights")
 
 output_biases = tf.Variable(
     initial_value=tf.zeros(shape=[output_dim], dtype=tf.float32),
-    dtype=None)
+    dtype=None, name="output_biases")
 
 
 # Так как результат обработки вычисляется в конце,
@@ -209,7 +209,7 @@ RNN_result = tf.nn.sigmoid(history_x_output_weights + output_biases)
 # for testing
 history_state_testing = history_state = tf.Variable(
     initial_value=tf.zeros(shape=[1, history_dim], dtype=tf.float32),
-    dtype=None)
+    dtype=None, name="history_state_testing")
 
 inp_unst_testing = tf.unstack(inputs_placeholder_testing, axis=0)
 for item in inp_unst_testing:

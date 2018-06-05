@@ -14,7 +14,5 @@ for noun in nouns_from_apertium:
 
         if noun in word:
             train_data.append(noun + ':' + tags + ':' + word + '\n')
-            print(train_data)
-            input()
 with open("data/gen-data", 'w') as f:
     f.writelines(train_data)
