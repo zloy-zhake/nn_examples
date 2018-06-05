@@ -6,10 +6,10 @@ import numpy as np
 
 def encode_letter(letter: str) -> float:
     alphabet = "аәбвгғдеёжзийкқлмнңоөпрстуұүфхһцчшщъыіьэюя"
-    codes = [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0,
+    codes = [2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0,
              12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0,
              23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0, 31.0, 32.0, 33.0,
-             34.0, 35.0, 36.0, 37.0, 38.0, 39.0, 40.0, 41.0]
+             34.0, 35.0, 36.0, 37.0, 38.0, 39.0, 40.0, 41.0, 42.0, 43.0]
 
     return codes[alphabet.find(letter)]
 
@@ -28,33 +28,34 @@ def pad_to_dense(M):
     return Z
 
 
-num_epochs = 10
-batch_size = 10
-train_test_ratio = 0.8
-# результат: 1х23
-output_dim = 23
-embedding_dim = 50
-history_dim = 50
-
+# загрузка и преобразование данных
 # читаем все строки из файла с лексиконом
-with open("data/noun-lexicon") as f:
+with open("data/gen-data") as f:
     lines = f.readlines()
 
-features = []
-labels = []
+lemmas = []
+words = []
+tags_list = []
 
 # NB тут можно сделать shuffle
 for line in lines:
-    # делим каждую строку на слово и теги. Резделитель - первый символ ':'
-    sep_ind = line.find(':')
-    word = line[:sep_ind]
-    tags = line[sep_ind + 1:]
+    # делим каждую строку на лемму, теги и слово. Резделитель - символ ':'
+    sep_ind_1 = line.find(':')
+    sep_ind_2 = line.rfind(':')
+    lemma = line[:sep_ind_1]
+    tags = line[sep_ind_1 + 1:sep_ind_2]
+    word = line[sep_ind_2:]
 
-    # кодируем буквы слова и записываем
+    # кодируем буквы слова
+    coded_lemma = []
     coded_word = []
+    for letter in lemma:
+        coded_lemma.append(encode_letter(letter))
     for letter in word:
         coded_word.append(encode_letter(letter))
-    features.append(coded_word)
+
+    lemmas.append(coded_lemma)
+    words.append(coded_word)
 
     # "выуживаем" и кодируем теги
     tag_codes = []
@@ -120,144 +121,127 @@ for line in lines:
     else:
         tag_codes += [0, 0, 0, 0]
 
-    # записываем теги
-    labels.append(tag_codes)
+    tags_list.append(tag_codes)
 
 # NB здесь мог быть ваш embedding
 
-# "выравниваем" массив признаков
-features = pad_to_dense(features)
+# "выравниваем" массивы слов
+lemmas = pad_to_dense(lemmas)
+words = pad_to_dense(words)
 
-# загрузка и преобразование данных
+features = []
+labels = []
+
+for i in range(len(lemmas)):
+    features.append(list(lemmas[i]) + list(tags_list[i]))
+    labels.append(words[i])
+
+num_epochs = 10
+batch_size = 10
+train_test_ratio = 0.8
+
 ind = int(len(features) * train_test_ratio)
-# слова
+# леммы и векторы грамматических характеристик
 features_for_training = features[:ind]
-# вектор грамматических характеристик
+# слова
 labels_for_training = labels[:ind]
 
-# слова
+# леммы и векторы грамматических характеристик
 features_for_testing = features[ind:]
-# вектор грамматических характеристик
+# слова
 labels_for_testing = labels[ind:]
 
-print(len(features_for_training[0]))
-input()
+input_dim = len(features_for_training[0])
+output_dim = len(labels_for_training[0])
+hidden_dim = 200
 
 # начинается модель
-inputs_placeholder_training = tf.placeholder(
-    shape=(len(features_for_training), len(features_for_training[0])),
+inputs_placeholder = tf.placeholder(shape=[None, input_dim], dtype=tf.float32)
+outputs_placeholder = tf.placeholder(shape=[None, output_dim],
+                                     dtype=tf.float32)
+
+# Preparing nn parameters (weights) using tf Variables
+weights_0_1 = tf.Variable(
+    initial_value=tf.random_uniform(shape=[input_dim, hidden_dim],
+                                    maxval=0.01),
     dtype=tf.float32)
-outputs_placeholder_training = tf.placeholder(shape=(None, output_dim),
-                                              dtype=tf.float32)
 
-inputs_placeholder_testing = tf.placeholder(
-    shape=(len(features_for_testing), len(features_for_testing[0])),
+biases_0_1 = tf.Variable(
+    initial_value=tf.zeros(shape=[hidden_dim], dtype=tf.float32),
     dtype=tf.float32)
-outputs_placeholder_testing = tf.placeholder(shape=(None, output_dim),
-                                             dtype=tf.float32)
 
-history_state = tf.Variable(
-    initial_value=tf.zeros(shape=[1, history_dim], dtype=tf.float32),
-    dtype=None)
+# ==========
 
-history_weights = tf.Variable(
-    initial_value=tf.eye(num_rows=history_dim, dtype=tf.float32),
-    dtype=None)
+weights_1_2 = tf.Variable(
+    initial_value=tf.random_uniform(shape=[hidden_dim, hidden_dim],
+                                    maxval=0.01),
+    dtype=tf.float32)
 
-RNN_biases = tf.Variable(
-    initial_value=tf.zeros(shape=[history_dim], dtype=tf.float32),
-    dtype=None)
+biases_1_2 = tf.Variable(
+    initial_value=tf.zeros(shape=[hidden_dim], dtype=tf.float32),
+    dtype=tf.float32)
 
-input_weights = tf.Variable(
-    initial_value=tf.random_uniform(shape=[embedding_dim, history_dim],
-                                    maxval=0.1, dtype=tf.float32),
-    dtype=None)
+# ==========
 
-output_weights = tf.Variable(
-    initial_value=tf.random_uniform(shape=[history_dim, output_dim],
-                                    maxval=0.1, dtype=tf.float32),
-    dtype=None)
+weights_2_3 = tf.Variable(
+    initial_value=tf.random_uniform(shape=[hidden_dim, hidden_dim],
+                                    maxval=0.01),
+    dtype=tf.float32)
 
-output_biases = tf.Variable(
+biases_2_3 = tf.Variable(
+    initial_value=tf.zeros(shape=[hidden_dim], dtype=tf.float32),
+    dtype=tf.float32)
+
+# ==========
+
+weights_3_out = tf.Variable(
+    initial_value=tf.random_uniform(shape=[hidden_dim, output_dim],
+                                    maxval=0.01),
+    dtype=tf.float32)
+
+biases_3_out = tf.Variable(
     initial_value=tf.zeros(shape=[output_dim], dtype=tf.float32),
-    dtype=None)
-
-
-# Так как результат обработки вычисляется в конце,
-# RNN_step возвращает только новое значение history_state
-def RNN_step(input_item: tf.Tensor, history: tf.Tensor) -> tf.Tensor:
-    # FIXME
-    t = tf.expand_dims(tf.tile(tf.reshape(input_item, [1]), tf.constant([50])), 0)
-    input_x_weights = tf.matmul(t, input_weights)
-    history_x_weights = tf.matmul(history, history_weights)
-    # NB можно попробовать конкатенацию вместо сложения
-    input_history_sum = tf.add(input_x_weights, history_x_weights)
-    # NB можно попробовать другие функции активации
-    return tf.nn.sigmoid(input_history_sum + RNN_biases)
-
-
-inp_unst = tf.unstack(inputs_placeholder_training, axis=0)
-for item in inp_unst:
-    lin_unst = tf.unstack(item, axis=0)
-    for letter_code in lin_unst:
-        history_state = RNN_step(input_item=letter_code, history=history_state)
-
-history_x_output_weights = tf.matmul(history_state, output_weights)
-RNN_result = tf.nn.sigmoid(history_x_output_weights + output_biases)
-
-# ==========
-# for testing
-history_state_testing = history_state = tf.Variable(
-    initial_value=tf.zeros(shape=[1, history_dim], dtype=tf.float32),
-    dtype=None)
-
-inp_unst_testing = tf.unstack(inputs_placeholder_testing, axis=0)
-for item in inp_unst_testing:
-    lin_unst = tf.unstack(item, axis=0)
-    for letter_code in lin_unst:
-        history_state_testing = RNN_step(input_item=letter_code,
-                                         history=history_state_testing)
-
-history_x_output_weights_testing = tf.matmul(history_state_testing,
-                                             output_weights)
-RNN_result_testing = \
-    tf.nn.sigmoid(history_x_output_weights_testing + output_biases)
+    dtype=tf.float32)
 # ==========
 
-# error_training = tf.reduce_mean(outputs_placeholder_training - RNN_result)
-error_training =\
-    tf.losses.mean_squared_error(outputs_placeholder_training, RNN_result)
-# error_testing =\
-    # tf.reduce_mean(outputs_placeholder_testing - RNN_result_testing)
-error_testing =\
-    tf.losses.mean_squared_error(outputs_placeholder_testing,
-                                 RNN_result_testing)
+# Create layers
+layer1_in = tf.matmul(inputs_placeholder, weights_0_1)
+layer1_out = tf.nn.sigmoid(layer1_in + biases_0_1)
 
-train_op = tf.train.AdagradOptimizer(learning_rate=0.05).\
-    minimize(error_training)
+layer2_in = tf.matmul(layer1_out, weights_1_2)
+layer2_out = tf.nn.sigmoid(layer2_in + biases_1_2)
+
+layer3_in = tf.matmul(layer2_out, weights_2_3)
+layer3_out = tf.nn.sigmoid(layer3_in + biases_2_3)
+
+layer_res_in = tf.matmul(layer3_out, weights_3_out)
+layer_res_out = tf.nn.relu(layer_res_in + biases_3_out)
+
+loss = tf.losses.mean_squared_error(labels=outputs_placeholder,
+                                    predictions=layer_res_out)
+
+# Minimizing the prediction error using gradient descent optimizer
+train_op = tf.train.GradientDescentOptimizer(learning_rate=0.05). \
+    minimize(loss)
 
 with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())
 
-    # print(sess.run(result, feed_dict={inputs_placeholder: features_for_training,
-                   # outputs_placeholder: labels_for_training}).shape)
-    # input()
-    
     # training
-    for epoch in range(num_epochs):
+    for epoch in range(num_epochs * 10000):
         # поделить на batches
-        _, current_error = sess.run(
-            fetches=[train_op, error_training],
-            feed_dict={inputs_placeholder_training: features_for_training,
-                       outputs_placeholder_training: labels_for_training})
-        print("Epoch:", epoch, "current_error:", current_error)
+        _, current_loss = sess.run(
+            fetches=[train_op, loss],
+            feed_dict={inputs_placeholder: features_for_training,
+                       outputs_placeholder: labels_for_training})
+        print("Epoch:", epoch, "current_loss:", current_loss)
 
-    print("training_error:", current_error)
+    print("training_loss:", current_loss)
 
     # testing
-    testing_error = sess.run(
-        fetches=error_testing,
-        feed_dict={inputs_placeholder_testing: features_for_testing,
-                   outputs_placeholder_testing: labels_for_testing})
+    testing_loss = sess.run(
+        fetches=loss,
+        feed_dict={inputs_placeholder: features_for_testing,
+                   outputs_placeholder: labels_for_testing})
 
-    print("testing_error:", testing_error)
+    print("testing_loss:", testing_loss)
